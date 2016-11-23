@@ -1,0 +1,19 @@
+<!-- <div ng-controller="ChatCtrl">
+  <ul>
+     <li ng-repeat="message in messages">
+       <img src="images/avatar.png" alt="{{message.sender_uuid}}">
+       <span class="title">Anonymous robot #{{ message.sender_uuid }}</span>
+       <p>{{ message.date | date:"MM/dd/yyyy 'at' h:mma"}}</br> {{ message.content }}</p>
+     </li>
+</ul>
+     <form ng-submit="sendMessage()">
+       <input ng-model="messageContent" type="text" placeholder="Type your message" />
+       <button type="submit">Send</button>
+      </form>
+</div> -->
+
+
+<div class="message-container">
+ <message-list></message-list>
+ <message-form></message-form>
+</div>
