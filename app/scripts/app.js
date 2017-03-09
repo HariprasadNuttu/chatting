@@ -25,6 +25,7 @@ angular
   .config(function ($stateProvider,$urlRouterProvider) {
     $stateProvider
       .state('/', {
+        url:'/',
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
       })
